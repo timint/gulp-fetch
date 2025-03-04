@@ -1,0 +1,34 @@
+{
+  "name": "gulp-fetch",
+  "version": "1.0.0",
+  "description": "Gulp plugin for downloading files over HTTP/HTTPS using Node Fetch and returning them to stream pipeline.",
+  "license": "MIT",
+  "author": "T. Almroth <tim@litecore.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timint/gulp-fetch.git"
+  },
+  "keywords": [
+    "gulp-plugin",
+    "node-fetch",
+    "download",
+    "remote-files",
+    "http",
+    "https"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "through2": "^4.0.2",
+    "vinyl": "^2.2.1"
+  },
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/index.test.mjs"
+  },
+  "bugs": {
+    "url": "https://github.com/timint/gulp-fetch/issues"
+  },
+  "homepage": "https://github.com/timint/gulp-fetch#readme"
+}

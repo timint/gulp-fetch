@@ -1,0 +1,13 @@
+## EditorConfig: https://EditorConfig.org
+# - Atom Plugin: https://github.com/sindresorhus/atom-editorconfig
+# - Notepad++ Plugin: https://github.com/editorconfig/editorconfig-notepad-plus-plus
+# - Sublime Plugin: https://github.com/sindresorhus/editorconfig-sublime
+# - Visual Studio Code Plugin: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+root = true
+
+[*.{js,mjs,ts,json,md,xml}]
+charset = utf-8
+indent_style = tab
+indent_size = 2
+trim_trailing_whitespace = true

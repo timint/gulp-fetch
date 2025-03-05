@@ -1,6 +1,6 @@
 {
   "name": "gulp-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin for downloading files over HTTP/HTTPS using Node Fetch and returning them to stream pipeline.",
   "license": "MIT",
   "author": "T. Almroth <tim@litecore.dev>",
